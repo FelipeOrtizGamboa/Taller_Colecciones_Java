@@ -3,7 +3,7 @@ public class Libro extends Material {
     private String isbn;
 
     public Libro(String codigo, String titulo, int anio, String autor, String isbn) {
-        super(codigo, titulo, anio); 
+        super(codigo, titulo, anio);
         this.autor = autor;
         this.isbn = isbn;
     }
